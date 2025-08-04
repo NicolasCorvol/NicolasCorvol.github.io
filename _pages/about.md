@@ -18,4 +18,4 @@ Research Topics
 
 * Combinatorial optimization
 * Structured prediction
-* Reinforcement learnings
+* Reinforcement learning
