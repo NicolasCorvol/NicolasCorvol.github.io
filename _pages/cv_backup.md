@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<i class="fas fa-file-pdf" aria-hidden="true"></i> You can get my resume [here](../files/Nicolas_Resume.pdf).
+<i class="fas fa-file-pdf" aria-hidden="true"></i> You can get my resume [here](../files/CV_Nicolas_Corvol.pdf).
 
 
 Education
