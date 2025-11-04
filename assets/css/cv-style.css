@@ -234,62 +234,70 @@
   }
 }
 
-/* Dark mode overrides for the CV page - ensure text becomes light in dark color-scheme */
-@media (prefers-color-scheme: dark) {
+/* Removed automatic prefers-color-scheme: dark handling so CV only switches when
+   the user explicitly toggles site dark mode (html[data-theme="dark"]). */
 
-  .cv-container,
-  .cv-section,
-  .cv-header,
-  .cv-item,
-  .cv-item-title,
-  .cv-item-subtitle,
-  .cv-item-date,
-  .cv-item-summary,
-  .cv-item-highlights,
-  .cv-skill-category h3,
-  .cv-interest h3,
-  .cv-language-name,
-  .cv-language-fluency,
-  .cv-references,
-  .cv-contact-item,
-  .cv-profiles,
-  .cv-profile-item {
-    color: #e6e6e6;
-  }
 
-  .cv-container {
-    background-color: transparent;
-  }
+/* Also apply the same overrides when the site's theme is toggled via html[data-theme="dark"] */
+html[data-theme="dark"] .cv-container,
+html[data-theme="dark"] .cv-container p,
+html[data-theme="dark"] .cv-container h1,
+html[data-theme="dark"] .cv-container h2,
+html[data-theme="dark"] .cv-container h3,
+html[data-theme="dark"] .cv-container h4,
+html[data-theme="dark"] .cv-container h5,
+html[data-theme="dark"] .cv-container h6,
+html[data-theme="dark"] .cv-section,
+html[data-theme="dark"] .cv-item,
+html[data-theme="dark"] .cv-item-title,
+html[data-theme="dark"] .cv-item-subtitle,
+html[data-theme="dark"] .cv-item-date,
+html[data-theme="dark"] .cv-item-summary,
+html[data-theme="dark"] .cv-item-highlights,
+html[data-theme="dark"] .cv-skill-category h3,
+html[data-theme="dark"] .cv-interest h3,
+html[data-theme="dark"] .cv-language-name,
+html[data-theme="dark"] .cv-language-fluency,
+html[data-theme="dark"] .cv-references,
+html[data-theme="dark"] .cv-contact-item,
+html[data-theme="dark"] .cv-profiles,
+html[data-theme="dark"] .cv-profile-item,
+html[data-theme="dark"] .cv-list li {
+  color: #e6e6e6;
+}
 
-  .cv-header {
-    border-bottom-color: rgba(255, 255, 255, 0.06);
-  }
+html[data-theme="dark"] .cv-container {
+  background-color: transparent;
+}
 
-  .cv-section h2 {
-    border-bottom-color: rgba(255, 255, 255, 0.06);
-    color: #9ecbff;
-  }
+html[data-theme="dark"] .cv-header {
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+}
 
-  .cv-profile-item a {
-    color: #8fbfff;
-  }
+html[data-theme="dark"] .cv-section h2 {
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+  color: #9ecbff;
+}
 
-  .cv-skill-keyword,
-  .cv-project-keyword,
-  .cv-interest-keyword {
-    background-color: rgba(255, 255, 255, 0.04);
-    color: #e6e6e6;
-    border-color: rgba(255, 255, 255, 0.06);
-  }
+html[data-theme="dark"] .cv-profile-item a {
+  color: #8fbfff;
+}
 
-  .cv-item-date,
-  .cv-item-subtitle,
-  .cv-language-fluency,
-  .cv-references {
-    color: #bfc7cc;
-  }
+html[data-theme="dark"] .cv-skill-keyword,
+html[data-theme="dark"] .cv-project-keyword,
+html[data-theme="dark"] .cv-interest-keyword {
+  background-color: rgba(255, 255, 255, 0.04);
+  color: #e6e6e6;
+  border-color: rgba(255, 255, 255, 0.06);
+}
 
-  a {
-    color: #9ad;
-  }
+html[data-theme="dark"] .cv-item-date,
+html[data-theme="dark"] .cv-item-subtitle,
+html[data-theme="dark"] .cv-language-fluency,
+html[data-theme="dark"] .cv-references {
+  color: #bfc7cc;
+}
+
+html[data-theme="dark"] a {
+  color: #9ad;
 }
