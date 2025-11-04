@@ -217,19 +217,79 @@
   .cv-container {
     max-width: 100%;
   }
-  
+
   .cv-header {
     border-bottom-color: #ccc;
   }
-  
+
   .cv-section h2 {
     border-bottom-color: #ccc;
   }
-  
+
   .cv-skill-keyword,
   .cv-project-keyword,
   .cv-interest-keyword {
     border: 1px solid #ccc;
     background-color: transparent;
+  }
+}
+
+/* Dark mode overrides for the CV page - ensure text becomes light in dark color-scheme */
+@media (prefers-color-scheme: dark) {
+
+  .cv-container,
+  .cv-section,
+  .cv-header,
+  .cv-item,
+  .cv-item-title,
+  .cv-item-subtitle,
+  .cv-item-date,
+  .cv-item-summary,
+  .cv-item-highlights,
+  .cv-skill-category h3,
+  .cv-interest h3,
+  .cv-language-name,
+  .cv-language-fluency,
+  .cv-references,
+  .cv-contact-item,
+  .cv-profiles,
+  .cv-profile-item {
+    color: #e6e6e6;
+  }
+
+  .cv-container {
+    background-color: transparent;
+  }
+
+  .cv-header {
+    border-bottom-color: rgba(255, 255, 255, 0.06);
+  }
+
+  .cv-section h2 {
+    border-bottom-color: rgba(255, 255, 255, 0.06);
+    color: #9ecbff;
+  }
+
+  .cv-profile-item a {
+    color: #8fbfff;
+  }
+
+  .cv-skill-keyword,
+  .cv-project-keyword,
+  .cv-interest-keyword {
+    background-color: rgba(255, 255, 255, 0.04);
+    color: #e6e6e6;
+    border-color: rgba(255, 255, 255, 0.06);
+  }
+
+  .cv-item-date,
+  .cv-item-subtitle,
+  .cv-language-fluency,
+  .cv-references {
+    color: #bfc7cc;
+  }
+
+  a {
+    color: #9ad;
   }
 }

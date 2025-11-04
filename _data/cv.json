@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Nicolas Corvol",
-    "email": "nicolas.corvol@eleves.enpc.fr",
+    "email": "nicolas.corvol@enpc.fr",
     "phone": "",
     "website": "https://nicolascorvol.github.io",
-    "summary": "Currently in a pre-doctorate internship at CERMICS, Ecole Nationale des Ponts et Chaussées, working on operations research and optimization problems.",
+    "summary": "PhD student at CERMICS with industrial collaboration with Renault, working on operations research and optimization problems.",
     "location": {
       "address": "2 rue Paul Saunière",
       "postalCode": "94410",
@@ -27,11 +27,20 @@
   },
   "work": [
     {
+      "company": "CERMICS and Renault Group",
+      "position": "PhD Student",
+      "website": "",
+      "startDate": "2025-11",
+      "endDate": "Present",
+      "summary": "Working on revenue management for car dealerships.",
+      "highlights": []
+    },
+    {
       "company": "CERMICS, Ecole Nationale des Ponts et Chaussées and Renault Group",
       "position": "Research Intern",
       "website": "",
       "startDate": "2025-04",
-      "endDate": "Present",
+      "endDate": "2025-10",
       "summary": "Pre-doctorate internship",
       "highlights": []
     },
