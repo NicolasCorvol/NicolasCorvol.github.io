@@ -1,1 +1,1 @@
-Visit my [website](https://nicolascorvol.github.io/teaching/)!
+Visit my [website](https://nicolascorvol.github.io/)!
