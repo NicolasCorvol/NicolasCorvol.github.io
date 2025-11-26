@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Nicolas Corvol"
 title_separator          : "-"
 name                     : &name "Nicolas Corvol"
-description              : &description "Futur PhD student in OR"
+description              : &description "PhD student in AI/OR @ Renault x CERMICS"
 url                      : https://nicolascorvol.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "NicolasCorvol/NicolasCorvol.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profil_photo.jpg"
   name             : "Nicolas Corvol"
   pronouns         : # example: "she/her"
-  bio              : "Futur Phd student in Operations Research"
+  bio              : "Phd student in AI and OR"
   location         : "Ecole des Ponts"
   employer         :
   uri              : # URL
