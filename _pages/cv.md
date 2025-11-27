@@ -9,56 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/CV_Nicolas_Corvol.pdf" class="btn btn--primary">Download CV as PDF</a>
+</div>
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Operation Research and Machine Learning, CERMIC-Renault Group, 2025-Present
+* Master's degree "Master Parisien de Recherche Opérationnelle", Conservatoire National des Arts et Métiers, 2024-2025
+* Engineering degree, Ecole Nationale des Ponts et Chaussées, 2021-2025
+* Scientific preparatory classes (MPSI-MP*), Lycée Charlemagne, 2019-2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* November 2025-Present: PhD student
+  * Renault Group Supply Chain - Ecole Nationale des Ponts et Chaussées, CERMICS
+  * Working on integrating revenue management into Renault's supply chain
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* April 2025 - October 2025: Research Intern
+  * Renault Group
+  * Pre-doctorate internship
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* February 2024 - August 2024: Operation Research Intern
+  * Padam Mobility
+  * Implementing MILP for transportation on demand
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* July 2023 - December 2023: Research assistant
+  * Polytechnique Montreal, Scale AI
+  * Worked on hybrid NLP/OR methods in Thibault Vidal's team
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
